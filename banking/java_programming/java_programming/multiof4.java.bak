@@ -1,0 +1,11 @@
+class multiof4 
+{
+	public static void main(String[] args) 
+	{
+		for (a=1;a<=100 ;a++ )
+		{
+			int b = 4;		
+		System.out.println(b*a);
+		}
+	}
+}

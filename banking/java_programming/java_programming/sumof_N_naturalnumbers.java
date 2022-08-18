@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class sumof_N_naturalnumbers 
+{
+	public static void main(String[] args) 
+	{
+		int product=1;
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter the number ");
+		int n=scan.nextInt();
+		for (int a=1;a<=n;a++ )
+		{
+		    System.out.println("enter the number "+a);
+			int num=scan.nextInt();
+				product=product*num;
+		
+		}
+		
+
+		System.out.println(product);
+	}
+}

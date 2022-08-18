@@ -1,0 +1,27 @@
+class naturalnumber1to100prime 
+{
+	public static void main(String[] args) 
+	{
+		for (int a=2;a<=100 ;a++ )
+		{
+			int count=0;
+			for(int x=1;x<=a;x++);
+			{
+				if (a%x==0)
+				{
+					count++;
+				}
+			}
+				if (count==2)
+				{
+					System.out.println(a+":"+"prime number");
+				}
+				else 
+				{
+                   
+					System.out.println(a+":"+"composite number");
+				}
+			
+		}
+	}
+}

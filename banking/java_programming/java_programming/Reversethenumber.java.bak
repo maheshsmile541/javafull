@@ -1,0 +1,17 @@
+class Reversethenumber 
+{
+	public static void main(String[] args) 
+	{
+		int num=4329;
+		int lastdigit=0;
+		int reverse=0;
+		while (num!=0)
+		{
+			lastdigit=num%10;
+			reverse=reverse*10+lastdigit;
+			num=num/10;
+		}
+		System.out.println(reverse); 
+	
+}
+

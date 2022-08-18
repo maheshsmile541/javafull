@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class multiofgivennumber 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter min range ");
+		int min = scan.nextInt();
+		System.out.println("enter max range ");
+		int max = scan.nextInt();
+		System.out.println("enter table number you want");
+		int g = scan.nextInt();
+		for (int a =min;a<=max;a++ )
+		{
+			if(g%5==0)
+			{
+				System.out.println(a);
+			}
+			
+		}
+
+
+	}
+}

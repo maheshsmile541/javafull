@@ -1,0 +1,16 @@
+class productofdigits 
+{
+	public static void main(String[] args) 
+	{
+		int num=120;
+		int product=1;
+		int lastdigit=0;
+		while (num!=0)
+		{
+			lastdigit=num%10;
+			product=product*lastdigit;
+			num=num/10;
+		}
+		System.out.println(product);
+	}
+}

@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Seasons
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter the month number");
+		int num =scan.nextInt();
+		switch (num)
+		{
+		case 3 :System.out.println("summer season");
+		case 4 :System.out.println("summer season");
+		case 5 :System.out.println("summer season");
+		break;
+		case 6 :System.out.println("Rainy season");
+		case 7 :System.out.println("Rainy season");
+		case 8 :System.out.println("Rainy season");
+		break;
+		case 9 :System.out.println("winter season");
+		case 10 :System.out.println("winter season");
+		case 11 :System.out.println("winter season");
+		break;
+		case 12 :System.out.println("spring season");
+		case 1 :System.out.println("spring season");
+		case 2 :System.out.println("spring season");
+		break;
+		default :System.out.println("enter valid input");
+		}
+	}
+}
